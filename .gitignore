@@ -15,6 +15,7 @@ masks_old/
 masks/
 !masks/*config.json
 .env
+.venv
 temp_gens/
 
 results/Sports_Basketball_Unlearned_NPO_SFT_with_Maintain
@@ -27,3 +28,5 @@ results/llama-2_forget_sport='basketball'_maintain_sport=None_Lora128_Log_1MP
 results/qwen_forget_sport='basketball'_maintain_sport=None_Log_1MP
 !models/neuron_mask_basketball.pt
 results/neuron_cb_unlearn_athletes
+
+orthogonalized_model
